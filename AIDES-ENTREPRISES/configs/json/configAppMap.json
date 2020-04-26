@@ -172,7 +172,7 @@
                   "funcName": "goToPolygon",
                   "funcParams": {
                     "zoomRange": {
-                      "maxZoom": 9
+                      "maxZoom": 8.3
                     },
                     "propName": "code"
                   }
@@ -181,7 +181,7 @@
                   "funcName": "updateDisplayedData",
                   "funcParams": {
                     "zoomRange": {
-                      "maxZoom": 5.9
+                      "maxZoom": 5.2
                     },
                     "propName": "code",
                     "targets": [
@@ -237,7 +237,7 @@
                   "funcParams": {
                     "propName": "code",
                     "zoomRange": {
-                      "maxZoom": 6
+                      "maxZoom": 5.3
                     },
                     "targets": [
                       {
@@ -290,13 +290,17 @@
               "functions": [
                 {
                   "funcName": "toggleSelectedOn",
-                  "funcParams": {}
+                  "funcParams": {
+                    "zoomRange": {
+                      "minZoom": 5.3
+                    }
+                  }
                 },
                 {
                   "funcName": "updateDisplayedData",
                   "funcParams": {
                     "zoomRange": {
-                      "minZoom": 6
+                      "minZoom": 5.3
                     },
                     "propName": "code",
                     "targets": [
@@ -433,7 +437,7 @@
           "layout": {
             "visibility": "visible"
           },
-          "maxzoom": 6,
+          "maxzoom": 5.3,
           "paint": {
             "circle-opacity": 0.6,
             "circle-color": "#7373FF",
@@ -475,7 +479,7 @@
             ],
             "text-size": 14
           },
-          "maxzoom": 6
+          "maxzoom": 5.3
         },
         {
           "id": "departements-fill",
@@ -515,7 +519,7 @@
               0
             ]
           },
-          "minzoom": 6
+          "minzoom": 5.3
         },
         {
           "id": "departements-lines",
@@ -530,7 +534,7 @@
               3
             ]
           },
-          "minzoom": 6
+          "minzoom": 5.3
         },
         {
           "id": "departements-aides",
@@ -565,7 +569,7 @@
               70
             ]
           },
-          "minzoom": 6
+          "minzoom": 5.3
         },
         {
           "id": "departements-aides-montants",
@@ -578,7 +582,7 @@
             ],
             "text-size": 14
           },
-          "minzoom": 6
+          "minzoom": 5.3
         }
       ],
       "maps_visibility": {
@@ -621,7 +625,7 @@
           46.2276,
           2.2137
         ],
-        "zoom": 5,
+        "zoom": 4.8,
         "maxZoom": 8,
         "minZoom": 2
       },

@@ -26,7 +26,7 @@
               "cols": 12,
               "textClass": "",
               "subTextClass": "",
-              "sizeDesktop": "headline",
+              "sizeDesktop": "headline mb-0",
               "sizeMobile": "subtitle-1",
               "textPrefix": {
                 "fr": "Aides versées : "
@@ -90,7 +90,7 @@
                   "id": "more-infos",
                   "textClass": "text-left mx-4 pt-4 pb-5 mb-5",
                   "textContent": {
-                    "fr": "\n                    Pour obtenir d’autres informations relatives au fonds de solidarité, il est possible de \n                    consulter la page d’information disponible sur \n                    <a target=\"_blank\" href=\"https://www.impots.gouv.fr/portail/\">\n                      https://www.impots.gouv.fr/portail/</a>.\n                  "
+                    "fr": "\n                    Pour obtenir d’autres informations relatives au fonds de solidarité, il est possible de \n                    consulter la page d’information \n                    <a target=\"_blank\" href=\"https://www.impots.gouv.fr/portail/\">\n                      disponible sur impots.gouv.fr</a>. \n                    <br><br>\n                    Les données utilisées sur ce tableau de bord \n                    <a target=\"_blank\" href=\"https://www.data.gouv.fr/fr/datasets/aides-aux-entreprises-dans-le-cadre-de-lepidemie-de-covid-19-en-france/\">\n                      sont disponibles sur data.gouv.fr</a>.\n                  "
                   },
                   "fromUrl": {}
                 },

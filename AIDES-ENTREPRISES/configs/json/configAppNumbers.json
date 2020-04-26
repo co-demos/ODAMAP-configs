@@ -20,7 +20,7 @@
             {
               "colName": "",
               "colTitle": {
-                "fr": "montant total"
+                "fr": "montant"
               },
               "titleI18n": "numbers.numbers01.amount",
               "colClass": "",
@@ -45,6 +45,7 @@
               "specialStoreId": "montant",
               "format": {
                 "type": "float",
+                "sepThousands": " ",
                 "sepComma": ","
               }
             },

@@ -51,7 +51,11 @@
             },
             "buildAxisCategsX": true,
             "buildAxisCategsXsettings": {
-              "fromKey": "libelle_section_naf"
+              "fromKey": "libelle_section_naf",
+              "splitBy": [
+                ",",
+                ";"
+              ]
             }
           }
         ],
@@ -85,7 +89,7 @@
             "labels": {
               "show": false,
               "style": {
-                "fontSize": "10px"
+                "fontSize": "9px"
               }
             }
           },
@@ -94,7 +98,6 @@
               "breakpoint": 960,
               "options": {
                 "chart": {
-                  "height": "350px",
                   "width": "350px"
                 },
                 "xaxis": {
